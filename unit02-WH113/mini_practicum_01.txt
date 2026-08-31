@@ -1,0 +1,61 @@
+Unit 01 Practice Problems
+
+For the remainder of this semester, you will begin each new unit by solving a
+set of practice problems based on the material from the previous unit. You will
+have 30 minutes to complete your answers and push your solution to GitHub. 
+Raise your hand if you need help.
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. Each of the numbered 
+problems below is weighted equally. 
+
+Before you start, open the terminal. Make sure that you are using Git Bash or 
+the equivalent. Using ONLY the terminal, complete each of the following tasks. 
+You will need to copy the output from your terminal and save it to a file, so 
+make sure that you do not close the terminal. DO NOT WORRY if you make any 
+mistakes - just include the output in your solution.
+
+To be clear, you will not receive credit for a task if you do not use the
+terminal to complete it.
+
+1. File System Basics
+   a. List the drives on the computer that you are using.
+   b. Create a new directory named "practicum" and change into it. 
+   c. Show a detailed listing of the files in the new directory.
+   d. Use vi to create a new text file named "about_me.txt" and add the 
+      following information to the file (each on a separate line). Save the 
+      file when you are done.
+      - Your full name
+      - Your birthdate
+      - Your home town
+      - Your favorite band
+      - Your favorite book
+      - Your favorite quote
+   e. Display the contents of the file to the terminal.
+   f. Create a copy of the file named "about_me_copy.txt" and display the 
+      contents to the terminal.
+   g. Show a detailed listing of the files in the new directory again.
+   h. Move the original file into the parent directory. 
+   i. Delete the copied file.
+   h. Select, copy, and paste the output from the terminal into a new file
+      named "files.txt" in the practicum directory. Hint: remember to use 
+      a right-click to copy and paste. Make sure to save it!
+
+2. Git Basics
+   a. Display your git version.
+   b. Display the status of the files in your repository.
+   c. Practice the Git workflow and push all of the files in your repository to
+      GitHub.
+   d. Delete the file named "about_me.txt".
+   e. Display the status of the files in your repository again.
+   f. Practice the Git workflow and push your changes to GitHub.
+   g. Select, copy, and paste the output from the terminal into a new file
+      named "git.txt" in the practicum directory. Make sure to save it!
+   h. Practice the Git workflow.
+   i. Open your repository in a browser window. Take a screenshot of the 
+      repository and save it to your local repository.
+   j. Practice the Git workflow and push your changes to GitHub one last time.

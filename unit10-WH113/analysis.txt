@@ -1,0 +1,20 @@
+book, system, libary, patrons, shelves, want-list, has-list, title, author, copies, file, ID, card-catalog, name
+
+Patrons
+    ID: int
+    name: str
+    want-list: set[book]
+    has-list: set[book]
+
+Book
+    author: str
+    title: str
+    copies: int
+
+Libary
+    shelves: list[book]
+    card-catalog: dictionary[author] dictionary[title]
+
+System
+    file: str
+    libary: libary

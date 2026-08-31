@@ -1,0 +1,34 @@
+ECLIPSE
+omvszco
+
+>>> ord('E')
+69
+>>> ord('C')
+67
+>>> ord('L')
+76
+>>> ord('I')
+73
+>>> ord('P')
+80
+>>> ord('S')
+83
+>>> ord('E')
+69
+
+>>> chr(69)
+'E'
+>>> chr(67)
+'C'
+>>> chr(76)
+'L'
+>>> chr(73)
+'I'
+>>> chr(80)
+'P'
+>>> chr(83)
+'S'
+>>> chr(69)
+'E'
+
+You can convert the letter to ASCII values to then add to the value to get your desired shifted value

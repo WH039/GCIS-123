@@ -1,0 +1,11 @@
+yes, starts with valid letter/symbol
+yes, starts with valid letter/symbol
+yes, starts with valid letter/symbol
+no, starts with number
+yes
+no, invalid symbol
+no
+no
+yes
+usable, not ideal
+yes

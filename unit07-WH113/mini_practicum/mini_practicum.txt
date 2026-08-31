@@ -1,0 +1,62 @@
+Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+You should create all of your required files in this folder along with these
+instructions.
+
+Each mini-practicum counts as a homework assignment. Each of the numbered 
+problems below is weighted equally. 
+
+You have provided with unit tests for both parts in practice_test.py.  Note
+that you will have failing tests until both solutions are fully implemented.
+
+0. A pytest unit test has been provided to you for your use in testing your
+   solutions to the following problems. You should note that all of the tests
+   are commented out. It is recommended that, once you believe you have 
+   implemented a solution, you uncomment the tests one at a time and run them. 
+   If a test fails, see if you can fix it before running the next test.
+
+
+    
+1. To The Max
+   a. Create a new python module named "practice.py" and define a function named
+      "max".  Declare parameters for an array, an index (default value 0), and
+      maximum value (default value None).
+      
+      Your function must use recursion to find and return the maximum value in
+      the array.  If the array is 0 length, your function should return None.
+   
+      Example Usage
+        an_array = array_utils.range_array(0,10)
+        largest = max(an_array)
+        print(largest)
+  
+        Output: 9
+
+2. You've Got The Power
+   a. In your "practice.py" module, define a function named "power".  Declare
+      2 parameters: base and exponent.  You should not add additional
+      parameters.
+      
+      Recall from the lecture that a naive implementation of a mathematical
+      formula translates the formula as directly as possible into code, making
+      changes only to fit the language syntax.  Your function must use recursion
+      to implement the following divide-and-conquer power calculation:
+
+      P(B,E) = Undefined where E < 0
+      P(B,E) = 1 where E = 0
+      P(B,E) = B where E = 1
+      P(B,E) = B * P(B,E//2) * P(B,E//2) where E is odd
+      P(B,E) = P(B,E//2) * P(B,E//2) where E is even
+
+      where B = base and E = exponent and both are always integers
+
+      Example Usage
+        result = power(4,7)
+        print(result)
+
+        Output: 16384

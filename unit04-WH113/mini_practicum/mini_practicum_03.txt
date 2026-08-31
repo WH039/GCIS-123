@@ -1,0 +1,35 @@
+Unit 03 Practice Problems
+
+For the remainder of this semester, you will begin each new unit by solving a
+set of practice problems based on the material from the previous unit. You will
+have 30 minutes to complete your answers and push your solution to GitHub. 
+Raise your hand if you need help.
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. The numbered problems
+below are weighted equally. 
+
+
+1. Create a new Python module named "practice.py" and implement a function
+   named "absolute_difference" which takes two integer parameters, a and b. Your
+   function needs to calculate and return the absolute difference between a and
+   b, i.e. the absolute value of the difference. For example, the absolute
+   difference between 2 and 5 is 3.
+
+   Your solution cannot use any math module functions.
+
+2. Create a new Python module named "practice_test.py" and implement at least 3
+   unit tests.
+
+3. In your "practice.py" module, write a main function that generates two random
+   integers between -100 (inclusive) and 100 (inclusive).  Use global constants
+   for 100 and -100.  Call your absolute_difference function and print out the
+   result.
+
+   Match the output as closely as possible to
+   
+      a=2, b=5, absolute difference=3

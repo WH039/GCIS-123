@@ -1,0 +1,70 @@
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI
+$ git clone https://github.com/GCIS-123-2245/unit02-WH113.git
+Cloning into 'unit02-WH113'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3 (from 1)
+Receiving objects: 100% (3/3), done.
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI
+$ ls -la
+total 25
+drwxr-xr-x 1 a9284 197609   0 Jan 22 10:17 ./
+drwxr-xr-x 1 a9284 197609   0 Jan 22 10:15 ../
+drwxr-xr-x 1 a9284 197609   0 Jan 15 10:33 Unit01/
+-rw-r--r-- 1 a9284 197609 141 Jan 22 10:10 about_me.txt
+drwxr-xr-x 1 a9284 197609   0 Jan 22 10:15 practicum/
+drwxr-xr-x 1 a9284 197609   0 Jan 17 10:30 unit01-WH113/
+drwxr-xr-x 1 a9284 197609   0 Jan 22 10:17 unit02-WH113/
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI
+$ cd unit02-WH113/
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113 (main)
+$ mkdir practicum
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113 (main)
+$ cd practicum
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ vi "about_me.txt"
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ cat about_me.txt
+Weicheng Huang
+10/20/2003
+Bensonhurst
+Gorillas
+Diary of a Wimpy Kid "Dog Days"
+"Have I ever told you the definition of insanity, is insane."
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ cp about_me.txt about_me_copy.txt
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ cat about_me_copy.txt
+Weicheng Huang
+10/20/2003
+Bensonhurst
+Gorillas
+Diary of a Wimpy Kid "Dog Days"
+"Have I ever told you the definition of insanity, is insane."
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ mv about_me.txt ../unit02-WH113
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ ls -la
+total 5
+drwxr-xr-x 1 a9284 197609   0 Jan 22 10:25 ./
+drwxr-xr-x 1 a9284 197609   0 Jan 22 10:25 ../
+-rw-r--r-- 1 a9284 197609 142 Jan 22 10:24 about_me_copy.txt
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ rm about_me_copy.txt
+
+a9284@DESKTOP-ABETS8U MINGW64 ~/SoftDevI/unit02-WH113/practicum (main)
+$ ls -la
+total 4
+drwxr-xr-x 1 a9284 197609 0 Jan 22 10:25 ./
+drwxr-xr-x 1 a9284 197609 0 Jan 22 10:25 ../
+
